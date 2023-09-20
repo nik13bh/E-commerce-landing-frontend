@@ -1,0 +1,29 @@
+
+function Appbar(){
+    
+    return(<>
+    
+        <div className="block md:flex flex-row  ">
+            <div className="text-center text-black-400 font-bold md:font-bold mt-8 ml-20 text-black-400 text-4xl">SneaKers</div>
+            <div className=" sm:mt-12 ml-9 text-gray-600 hover:text-black cursor-pointer hover:underline underline-offset-8 decoration-orange-600 "> Collections</div>
+            <div className=" sm:mt-12 ml-9 text-gray-600 hover:text-black cursor-pointer hover:underline underline-offset-8 decoration-orange-600">Men</div>
+            <div className=" sm:mt-12 ml-9 text-gray-600 hover:text-black cursor-pointer hover:underline underline-offset-8 decoration-orange-600">Women</div>
+            <div className=" sm:mt-12 ml-9 text-gray-600 hover:text-black cursor-pointer hover:underline underline-offset-8 decoration-orange-600">About</div>
+            <div className=" sm:mt-12 ml-9 mr-40 text-gray-600 hover:text-black cursor-pointer hover:underline underline-offset-8 decoration-orange-600">Contact-us</div>
+            
+            <img src="../images/icon-cart.svg" className=" ml-60 mt-12  w-7 h-7 " alt="" />
+            <img src="../images/image-avatar.png" alt=""  className="mx-16 w-10 h-10 mt-10 mb-2 "/>
+                        
+             
+        </div>
+        <div>
+            
+            
+            
+            <hr className="w-[70%] m-auto  text-gray-500 "></hr>
+
+        </div>
+        </>    
+    )
+}
+export default Appbar;
